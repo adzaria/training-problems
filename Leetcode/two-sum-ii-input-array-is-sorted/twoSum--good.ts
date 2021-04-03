@@ -1,25 +1,25 @@
 /**
+ * https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/
  * Given an array of integers numbers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
  * Return the indices of the two numbers (1-indexed) as an integer array answer of size 2, where 1 <= answer[0] < answer[1] <= numbers.length.
  * You may assume that each input would have exactly one solution and you may not use the same element twice.
  *
- * Personal note: this brute-force solution uses maps, so it is O(n) but it does not use the sorted quality of the array
+ * Personal note: This solution also is O(n) (see two-code), but it uses the 'sorted' property of the input
  *
- * Runtime: 76ms (faster than 97%)
- * Memory: 40.1mo (less than 20%)
+ * Runtime: 72ms (faster than 99%)
+ * Memory: 40mo (less than 20%)
  */
 
 function twoSum(nums: number[], target: number): number[] {
-  const numsMap: any = {};
-  for(let indexOfTestedNumber = 0; indexOfTestedNumber < nums.length; indexOfTestedNumber++) {
-    const currentNumber = nums[indexOfTestedNumber];
-    const quantityLeft = target - currentNumber;
-    if(typeof numsMap[currentNumber] !== "undefined") {
-      if(indexOfTestedNumber < numsMap[currentNumber]) {
-        return ([indexOfTestedNumber + 1, numsMap[currentNumber]+1]);
-      }
-      return ([numsMap[currentNumber]+1, indexOfTestedNumber + 1]);
+  let i = 0;
+  let j = nums.length - 1;
+  while(j > i) {
+    const sum = nums[i] + nums[j];
+    if(sum === target) return[i + 1, j + 1];
+    if(sum < target) {
+      i++;
+    } else {
+      j--;
     }
-    numsMap[quantityLeft] = indexOfTestedNumber;
   }
 }
