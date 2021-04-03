@@ -24,8 +24,6 @@ function findTarget(root: TreeNode | null, k: number): any {
   
   function inspectTree(fromRoot: TreeNode | null) {
     if(remainders.has(fromRoot?.val)) return true;
-    if(remainders.has(fromRoot?.left?.val)) return true;
-    if(remainders.has(fromRoot?.right?.val)) return true;
     remainders.add(k - (fromRoot?.val));
     if(fromRoot?.left && inspectTree((fromRoot).left)) return true;
     if(fromRoot?.right && inspectTree((fromRoot).right)) return true;
