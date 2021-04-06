@@ -4,8 +4,8 @@
 # <= numbers.length. You may assume that each input would have exactly one solution and you may not use the same
 # element twice.
 #
-# Runtime: 72ms (faster than 99%)
-# Memory: 40mo (less than 20%)
+# Runtime: 56ms (faster than 94%)
+# Memory: 14mo (less than 31%)
 
 class Solution:
     def twoSum(self, numbers, target):
