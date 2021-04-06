@@ -1,3 +1,9 @@
+venv
+
 .idea
 .code-workspace
 .sublime-project
+
+*/**/.idea
+*/**/.code-workspace
+*/**/.sublime-project
