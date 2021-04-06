@@ -9,7 +9,7 @@ Resolution of various problems in various languages
 
 ## Platforms
 
-* Codewars, https://codewar.com
+* Codewars, https://codewars.com
 * Leetcode, https://leetcode.com
 
 ## Courses
