@@ -1,6 +1,6 @@
 <p style="text-align: left">
 <img src="https://img.shields.io/badge/problems-7-grey" />
-<img src="https://img.shields.io/badge/solutions-13-grey" />
+<img src="https://img.shields.io/badge/solutions-14-grey" />
 <img src="https://img.shields.io/badge/languages-3-grey" />
 </p>
 
