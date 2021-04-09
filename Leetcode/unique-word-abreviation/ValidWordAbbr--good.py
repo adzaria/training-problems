@@ -6,8 +6,8 @@
 # equal to word's abbreviation. For any word in dictionary whose abbreviation is equal to word's abbreviation,
 # that word and word are the same.
 #
-# Runtime: 216ms (faster than 57%)
-# Memory: 24mb (less than 98%)
+# Runtime: 208ms (faster than 84%)
+# Memory: 24mb (less than 94%)
 
 class ValidWordAbbr:
     def __init__(self, dictionary):

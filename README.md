@@ -1,3 +1,9 @@
+<p style="text-align: left">
+<img src="https://img.shields.io/badge/problems-7-grey" />
+<img src="https://img.shields.io/badge/solutions-13-grey" />
+<img src="https://img.shields.io/badge/languages-3-grey" />
+</p>
+
 # Training-problems
 
 Resolution of various problems in various languages
@@ -15,6 +21,7 @@ Resolution of various problems in various languages
 ## Courses
 
 * DSAA_TCM, <a href="https://www.packtpub.com/product/data-structures-and-algorithms-the-complete-masterclass-video/9781801078504">Data Structure and algorithms: the complete masterclass</a>
+* LCC, https://leetcode.com
 
 ## Other
 
