@@ -2,8 +2,9 @@
 * https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/
 * Given a binary array, find the maximum number of consecutive 1s in this array.
 *
-* Runtime: 72ms (faster than 99%)
-* Memory: 40mo (less than 20%)
+* Time complexity: O(n)
+* Runtime: 120ms
+* Memory: 16mo
 */
 
 class Solution {
