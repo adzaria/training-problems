@@ -1,7 +1,7 @@
 <p style="text-align: left">
 <img src="https://img.shields.io/badge/problems-9-grey" />
-<img src="https://img.shields.io/badge/solutions-17-grey" />
-<img src="https://img.shields.io/badge/languages-3-grey" />
+<img src="https://img.shields.io/badge/solutions-18-grey" />
+<img src="https://img.shields.io/badge/languages-4-grey" />
 </p>
 
 # Training-problems
