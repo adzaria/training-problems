@@ -1,4 +1,4 @@
-# https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/
+# https://leetcode.com/problems/max-consecutive-ones/solution/
 # Given a binary array, find the maximum number of consecutive 1s in this array.
 #
 # Time complexity: O(n)
