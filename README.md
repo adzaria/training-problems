@@ -1,13 +1,13 @@
 <p style="text-align: left">
-<img src="https://img.shields.io/badge/problems-9-grey" />
-<img src="https://img.shields.io/badge/solutions-18-grey" />
+<img src="https://img.shields.io/badge/problems-15-grey" />
+<img src="https://img.shields.io/badge/solutions-25-grey" />
 <img src="https://img.shields.io/badge/languages-4-grey" />
 </p>
 <p style="text-align: left">
 <img src="https://img.shields.io/badge/TypeScript-7-grey" />
-<img src="https://img.shields.io/badge/Python-9-grey" />
+<img src="https://img.shields.io/badge/Python-13-grey" />
 <img src="https://img.shields.io/badge/PHP-1-grey" />
-<img src="https://img.shields.io/badge/Kotlin-1-grey" />
+<img src="https://img.shields.io/badge/Kotlin-3-grey" />
 </p>
 
 # Training-problems
