@@ -1,7 +1,7 @@
 <p style="text-align: left">
-<img src="https://img.shields.io/badge/solutions-32-grey" />
+<img src="https://img.shields.io/badge/solutions-34-grey" />
 <img src="https://img.shields.io/badge/TypeScript-7-grey" />
-<img src="https://img.shields.io/badge/Python-21-grey" />
+<img src="https://img.shields.io/badge/Python-23-grey" />
 <img src="https://img.shields.io/badge/PHP-1-grey" />
 <img src="https://img.shields.io/badge/Kotlin-3-grey" />
 </p>
