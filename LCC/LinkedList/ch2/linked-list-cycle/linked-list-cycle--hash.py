@@ -8,7 +8,7 @@
 # Memory: O(n) (could find a solution in O(1)
 
 class Solution:
-    def hasCycle(self, head: ListNode) -> bool:
+    def hasCycle(self, head) -> bool:
       nodes = set()
       while head is not None:
         if head in nodes:
